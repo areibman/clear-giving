@@ -1,0 +1,19 @@
+{
+    "amplifyenv": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-notetaker-amplifyenv-20190609030709-authRole",
+            "UnauthRoleArn": "arn:aws:iam::822528268969:role/amplify-notetaker-amplifyenv-20190609030709-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::822528268969:role/amplify-notetaker-amplifyenv-20190609030709-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-notetaker-amplifyenv-20190609030709-deployment",
+            "UnauthRoleName": "amplify-notetaker-amplifyenv-20190609030709-unauthRole",
+            "StackName": "amplify-notetaker-amplifyenv-20190609030709",
+            "StackId": "arn:aws:cloudformation:us-east-1:822528268969:stack/amplify-notetaker-amplifyenv-20190609030709/32a0c030-8a85-11e9-9d98-0eee31812ac2"
+        },
+        "categories": {
+            "auth": {
+                "amplifynotetaker6bad3915": {}
+            }
+        }
+    }
+}

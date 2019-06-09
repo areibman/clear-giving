@@ -1,0 +1,12 @@
+type Note @model @auth(rules: [{ allow: owner }]) {
+  id: ID!
+  name: String!
+  description: String
+  charityname: String
+  fundgoals: String
+  fundgoalnum: Float
+  usercontribution: Int
+  totalraised: Float
+  totalasked: Float
+  status: String
+}

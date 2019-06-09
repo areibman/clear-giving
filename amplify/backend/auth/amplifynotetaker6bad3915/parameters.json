@@ -1,0 +1,68 @@
+{
+    "identityPoolName": "amplifynotetaker6bad3915_identitypool_6bad3915",
+    "allowUnauthenticatedIdentities": false,
+    "lambdaLogPolicy": "amplif_6bad3915_lambda_log_policy",
+    "openIdLambdaRoleName": "amplif_6bad3915_openid_lambda_role",
+    "openIdRolePolicy": "amplif_6bad3915_openid_pass_role_policy",
+    "openIdLambdaIAMPolicy": "amplif_6bad3915_openid_lambda_iam_policy",
+    "openIdLogPolicy": "amplif_6bad3915_openid_lambda_log_policy",
+    "userPoolName": "amplifynotetaker6bad3915_userpool_6bad3915",
+    "autoVerifiedAttributes": [
+        "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+        "SMS Text Message"
+    ],
+    "roleName": "amplif6bad3915_sns-role",
+    "roleExternalId": "amplif6bad3915_role_external_id",
+    "policyName": "amplif6bad3915-sns-policy",
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+        "email"
+    ],
+    "userpoolClientName": "amplif6bad3915_app_client",
+    "userpoolClientGenerateSecret": true,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+        "email"
+    ],
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "mfaLambdaRole": "amplif6bad3915_totp_lambda_role",
+    "mfaLambdaLogPolicy": "amplif6bad3915_totp_lambda_log_policy",
+    "mfaPassRolePolicy": "amplif6bad3915_totp_pass_role_policy",
+    "mfaLambdaIAMPolicy": "amplif6bad3915_totp_lambda_iam_policy",
+    "userpoolClientLambdaRole": "amplif6bad3915_userpoolclient_lambda_role",
+    "userpoolClientLogPolicy": "amplif6bad3915_userpoolclient_lambda_log_policy",
+    "userpoolClientLambdaPolicy": "amplif6bad3915_userpoolclient_lambda_iam_policy",
+    "userpoolClientSetAttributes": false,
+    "resourceName": "amplifynotetaker6bad3915",
+    "authSelections": "identityPoolAndUserPool",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    },
+    "useDefault": "default"
+}
