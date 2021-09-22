@@ -8,7 +8,7 @@
     "aws-amplify-react": "^2.3.8",
     "bootstrap": "^4.3.1",
     "chart.js": "^2.8.0",
-    "chartkick": "^3.1.0",
+    "chartkick": "^3.2.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
     "react-chartkick": "^0.3.1",
