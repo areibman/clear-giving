@@ -2665,10 +2665,10 @@ chartjs-color@^2.1.0:
     chartjs-color-string "^0.6.0"
     color-convert "^0.5.3"
 
-chartkick@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/chartkick/-/chartkick-3.1.0.tgz#1c330028b84d5580d5884c00d901e5934ecc2e31"
-  integrity sha512-45ALBwI9KCZR+bMue/xxhnO6i04cGhM98hVnHH/gKDQRc/2TPbskZEYbAQL1nxbGrlO6NQZBlRIHPNyOnP/zsw==
+chartkick@^3.1.0, chartkick@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/chartkick/-/chartkick-3.2.0.tgz#5296bbadfa6fbb93d3ab0f9c8e5d27649860e806"
+  integrity sha512-EkscIyDBdtUJVIuA2kIIjMq+YkNf4jDWr1fYjDUMZ9IakIJFoJ+9Hl+PW/POutElu8iYbebCEHWsrsXu09o4hw==
 
 chokidar@^2.0.0, chokidar@^2.0.2, chokidar@^2.0.4:
   version "2.1.6"
@@ -4108,6 +4108,11 @@ execa@^1.0.0:
     p-finally "^1.0.0"
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
+
+exenv@^1.2.0:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/exenv/-/exenv-1.2.2.tgz#2ae78e85d9894158670b03d47bec1f03bd91bb9d"
+  integrity sha1-KueOhdmJQVhnCwPUe+wfA72Ru50=
 
 exit@^0.1.2:
   version "0.1.2"
@@ -8565,6 +8570,21 @@ react-is@^16.3.2, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.0, react-is
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
+
+react-lifecycles-compat@^3.0.0:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
+  integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
+
+react-modal@^3.8.1:
+  version "3.14.3"
+  resolved "https://registry.yarnpkg.com/react-modal/-/react-modal-3.14.3.tgz#7eb7c5ec85523e5843e2d4737cc17fc3f6aeb1c0"
+  integrity sha512-+C2KODVKyu20zHXPJxfOOcf571L1u/EpFlH+oS/3YDn8rgVE51QZuxuuIwabJ8ZFnOEHaD+r6XNjqwtxZnXO0g==
+  dependencies:
+    exenv "^1.2.0"
+    prop-types "^15.7.2"
+    react-lifecycles-compat "^3.0.0"
+    warning "^4.0.3"
 
 react-overlays@^1.2.0:
   version "1.2.0"
